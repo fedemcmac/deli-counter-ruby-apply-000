@@ -22,7 +22,7 @@ end
 # If line is not empty add person to the end of the line, print message
 
 def take_a_number(queue)
-    number_in_queue += 1 
+    number_in_queue = queue.length + 1
     queue.push(number_in_queue)
     message = "Welcome, you are number #{number_in_queue} in line."
     puts message
