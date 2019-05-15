@@ -21,9 +21,8 @@ end
 # If line is empty add person to the line, print message
 # If line is not empty add person to the end of the line, print message
 
-number_in_queue = 0
-
 def take_a_number(queue)
+    number_in_queue = 0
     number_in_queue += 1 
     queue.push(number_in_queue)
     message = "Welcome, you are number #{number_in_queue} in line."
