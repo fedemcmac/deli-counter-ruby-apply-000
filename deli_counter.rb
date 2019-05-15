@@ -26,7 +26,6 @@ def take_a_number(queue, name)
     number_in_queue = queue.length
     message = "Welcome, #{name}. You are number #{number_in_queue} in line."
     puts message
-  end
 end
 
 # If line is empty print say it
